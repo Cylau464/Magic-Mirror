@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b572bbc41a2cc704d8546bc07ad79d1b, type: 3}
+  m_Name: AppsSettings
+  m_EditorClassIdentifier: 
+  autoInitialize: 1
+  integrateFacebook: 1
+  appLabels: Magic Mirror
+  appFacebookID: 2077608742405601
+  clientTokens: 
+  integrateADS: 0
+  showADSType: 0
+  adsInfo:
+    useBanner: 1
+    bannerPosition: 2
+    useInterstitial: 1
+    showInterstitialEvery: 45
+    useRewardedVideo: 1
+  androidKey: Entry Android Key
+  iosKey: Entry IOS Key
+  integrateGameAnalytics: 1
+  debugMode: 0

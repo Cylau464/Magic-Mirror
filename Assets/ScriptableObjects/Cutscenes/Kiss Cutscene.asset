@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d165e06c6298cc2438ddccbd2bc9e2cf, type: 3}
+  m_Name: Kiss Cutscene
+  m_EditorClassIdentifier: 
+  Title: Kiss
+  Type: 1
+  StepSwitch: 1
+  Steps:
+  - Title: Kiss
+    Index: 0
+    NextStepBy: 0
+    Duration: 3
+    Zoom:
+      Enabled: 1
+      FOV: 30
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Duration: 1.5
+      PingPong: 0
+    CameraSwitcher:
+      Enabled: 1
+      Tag: Finish
+    TargetGroup:
+      Enabled: 1
+      Group: {fileID: 0}
+      TargetIndex: 0
+    Action:
+      Type: 1
+      AnimationMode: 3
+      StartAnimationParameter: kissing
+      AnimationByTriggerParameter: kiss
+      ActionBy: 1
+      Duration: 0
+      Speed: 1.5
+      Trigger: {fileID: 0}
+  - Title: Zoom On Faces
+    Index: 1
+    NextStepBy: 1
+    Duration: 2
+    Zoom:
+      Enabled: 1
+      FOV: 15
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Duration: 1
+      PingPong: 0
+    CameraSwitcher:
+      Enabled: 0
+      Tag: 
+    TargetGroup:
+      Enabled: 1
+      Group: {fileID: 0}
+      TargetIndex: 1
+    Action:
+      Type: 2
+      AnimationMode: 1
+      StartAnimationParameter: happy
+      AnimationByTriggerParameter: throw_board
+      ActionBy: 0
+      Duration: 1
+      Speed: 0
+      Trigger: {fileID: 0}
